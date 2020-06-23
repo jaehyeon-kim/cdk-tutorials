@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5b82c518e6d54154bc36344f2415a5079fe3f35ea6fb8ee6edc30d4cf397c50f"
+            "sha256": "5e4b8a58c8aad8b83b87da3fcd0f0f8b3f6227fa4f67115b9c33ba0b34dbce6e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,6 +23,38 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==19.3.0"
+        },
+        "aws-cdk.aws-events": {
+            "hashes": [
+                "sha256:436322b7684b695050ee055f4ac2c9b37db3c38479077e31ef0296fee09f2819",
+                "sha256:ece9aa770300e515300edc80caaaf917883340d02adb9e7aef73045e6d2e786b"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==1.46.0"
+        },
+        "aws-cdk.aws-iam": {
+            "hashes": [
+                "sha256:51d92c6d89fc013b409012c75971fd2a55831a485783d67e5e31e699d5de122c",
+                "sha256:e58837a7d623c05c38ffc83f7a5498a1de0963290004d2505b810305e510ad59"
+            ],
+            "index": "pypi",
+            "version": "==1.46.0"
+        },
+        "aws-cdk.aws-kms": {
+            "hashes": [
+                "sha256:19e783bc215d8a488c9ec4ba0027fde8b03e4e63814a4ce6ed851cd41a931a83",
+                "sha256:1c54d3e216995d5a54f2d3c695355475cde327735021de5a53b6dbe13722ba01"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==1.46.0"
+        },
+        "aws-cdk.aws-s3": {
+            "hashes": [
+                "sha256:b35b12f8cb6976e32d70e8a318bd99558b3eba12491c3714418482c638c30433",
+                "sha256:f6c19d0687d4e86b9b2f4a101c8c408d3c60c8985e66dab3c93edfeb75d0166e"
+            ],
+            "index": "pypi",
+            "version": "==1.46.0"
         },
         "aws-cdk.cdk-assets-schema": {
             "hashes": [
@@ -56,17 +88,26 @@
             "markers": "python_version >= '3.6'",
             "version": "==1.46.0"
         },
+        "aws-cdk.region-info": {
+            "hashes": [
+                "sha256:10ab61ab184e4cd1deece23f95e38edfdf36d08afe09b2b506b7fa9980e1fb7b",
+                "sha256:c562efc24802bcaf785787148e8101554664ccf1f366492f1d8b35152c0719f5"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==1.46.0"
+        },
         "boto3": {
             "hashes": [
-                "sha256:4856c8cb4150b900cc7dccbdf16f542fb8c12e97b17639979e58760847f7cf35",
-                "sha256:fe6f7f58fa53c4dd86432315717c989a65a5a8748e6219a53725be1041c4a113"
+                "sha256:5130fd17787637e818e7be8b2820e88a5aa441e13335a99b7442f9aead4e3402",
+                "sha256:e831278ada45b984574a533fd427cb08c9c245445ca9a51457a84903d8b09b86"
             ],
             "index": "pypi",
-            "version": "==1.14.7"
+            "version": "==1.14.8"
         },
         "botocore": {
             "hashes": [
-                "sha256:091a2763bb84d47271b05ae05ebc704466ca32df9aabf39e39c3ae99bde9b176"
+                "sha256:091a2763bb84d47271b05ae05ebc704466ca32df9aabf39e39c3ae99bde9b176",
+                "sha256:b91ce293e3bb1c2cb8c191ec544b80ce8193d0503185fadeae2d429f896c1934"
             ],
             "version": "==1.17.8"
         },
@@ -91,7 +132,7 @@
                 "sha256:9e4d7ecfc600058e07ba661411a2b7de2fd0fafa17d1a7f7361cd47b1175c827",
                 "sha256:a2aeea129088da402665e92e0b25b04b073c04b2dce4ab65caaa38b7ce2e1a99"
             ],
-            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.15.2"
         },
         "jmespath": {
@@ -99,7 +140,7 @@
                 "sha256:b85d0567b8666149a93172712e68920734333c0ce7e89b78b3e987f71e5ed4f9",
                 "sha256:cdf6525904cc597730141d61b36f2e4b8ecc257c420fa2f4549bac2c2d0cb72f"
             ],
-            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.10.0"
         },
         "jsii": {
@@ -122,7 +163,7 @@
                 "sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c",
                 "sha256:75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.8.1"
         },
         "s3transfer": {
@@ -137,7 +178,7 @@
                 "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
                 "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.15.0"
         },
         "typing-extensions": {
@@ -375,7 +416,7 @@
                 "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
                 "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.15.0"
         },
         "toml": {
@@ -416,7 +457,7 @@
                 "sha256:fc0fea399acb12edbf8a628ba8d2312f583bdbdb3335635db062fa98cf71fca4",
                 "sha256:fe460b922ec15dd205595c9b5b99e2f056fd98ae8f9f56b888e7a17dc2b757e7"
             ],
-            "markers": "implementation_name == 'cpython' and python_version < '3.8'",
+            "markers": "python_version < '3.8' and implementation_name == 'cpython'",
             "version": "==1.4.1"
         },
         "wcwidth": {

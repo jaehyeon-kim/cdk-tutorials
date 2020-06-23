@@ -11,6 +11,8 @@ ipdb = "*"
 [packages]
 boto3 = "*"
 "aws-cdk.core" = "*"
+"aws-cdk.aws_s3" = "*"
+"aws-cdk.aws-iam" = "*"
 
 [requires]
 python_version = "3.7"

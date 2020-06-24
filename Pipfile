@@ -20,6 +20,12 @@ boto3 = "*"
 "aws-cdk.aws-sns" = "*"
 "aws-cdk.aws-sns-subscriptions" = "*"
 "aws-cdk.aws-sqs" = "*"
+"aws-cdk.aws-lambda" = "*"
+"aws-cdk.aws-logs" = "*"
+"aws-cdk.aws-events" = "*"
+"aws-cdk.aws-events-targets" = "*"
+"aws-cdk.aws-dynamodb" = "*"
+"aws-cdk.aws-apigateway" = "*"
 
 [requires]
 python_version = "3.7"
